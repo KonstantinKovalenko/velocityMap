@@ -1,0 +1,51 @@
+run:
+TreeMap.fillMap() in 24 ms
+TreeMap.getElementByKey(3091) in 0 ms
+
+ConcurrentSkipListMap.fillMap() in 29 ms
+ConcurrentSkipListMap.getElementByKey(2238) in 1 ms
+
+HashMap.fillMap() in 20 ms
+HashMap.getElementByKey(3371) in 0 ms
+
+LinkedHashMap.fillMap() in 157 ms
+LinkedHashMap.getElementByKey(364) in 0 ms
+
+WeakHashMap.fillMap() in 298 ms
+WeakHashMap.getElementByKey(4244) in 0 ms
+
+ConcurrentHashMap.fillMap() in 155 ms
+ConcurrentHashMap.getElementByKey(6102) in 0 ms
+
+IdentityHashMap.fillMap() in 23 ms
+IdentityHashMap.getElementByKey(3025) in 0 ms
+
+IdentityHashMap.getAllElements() failed
+IdentityHashMap.clearHalfMap(even int) in 4 ms
+IdentityHashMap.clear() in 2 ms
+
+WeakHashMap.getAllElements() in 404 ms
+WeakHashMap.clearHalfMap(even int) in 3 ms
+WeakHashMap.clear() in 1 ms
+
+TreeMap.getAllElements() in 4006 ms
+TreeMap.clearHalfMap(odd int) in 16 ms
+TreeMap.clear() in 0 ms
+
+HashMap.getAllElements() in 3878 ms
+HashMap.clearHalfMap(odd int) in 4 ms
+HashMap.clear() in 1 ms
+
+LinkedHashMap.getAllElements() in 4537 ms
+LinkedHashMap.clearHalfMap(odd int) in 2 ms
+LinkedHashMap.clear() in 1 ms
+
+ConcurrentHashMap.getAllElements() in 4359 ms
+ConcurrentHashMap.clearHalfMap(even int) in 7 ms
+ConcurrentHashMap.clear() in 5 ms
+
+ConcurrentSkipListMap.getAllElements() in 5213 ms
+ConcurrentSkipListMap.clearHalfMap(odd int) in 16 ms
+ConcurrentSkipListMap.clear() in 0 ms
+
+ÑÁÎĞÊÀ ÓÑÏÅØÍÎ ÇÀÂÅĞØÅÍÀ (îáùåå âğåìÿ: 8 ñåêóíäû)
