@@ -1,0 +1,25 @@
+run:
+TreeMap.fillMap() in 77 ms
+
+ConcurrentSkipListMap.fillMap() in 443 ms
+
+HashMap.fillMap() in 255 ms
+
+LinkedHashMap.fillMap() in 310 ms
+
+ConcurrentHashMap.fillMap() in 570 ms
+
+ConcurrentHashMap.getRandomElements(50000) in 190621 ms
+ConcurrentHashMap.clearRandomQuantity(50000) in 298 ms
+
+HashMap.getRandomElements(50000) in 192753 ms
+HashMap.clearRandomQuantity(50000) in 201 ms
+
+TreeMap.getRandomElements(50000) in 194297 ms
+TreeMap.clearRandomQuantity(50000) in 216 ms
+
+LinkedHashMap.getRandomElements(50000) in 200228 ms
+LinkedHashMap.clearRandomQuantity(50000) in 49 ms
+
+ConcurrentSkipListMap.getRandomElements(50000) in 201170 ms
+ConcurrentSkipListMap.clearRandomQuantity(50000) in 180 ms
